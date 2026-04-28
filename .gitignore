@@ -175,3 +175,7 @@ dmypy.json
 
 # Vim
 *.swp
+
+# Camera logs
+*.log.txt
+Log/

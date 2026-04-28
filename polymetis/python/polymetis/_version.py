@@ -25,9 +25,8 @@ else:
     stream = os.popen("git describe --tags")
     version_string = [line for line in stream][0]
 
-    # Modify to same format as conda env variable GIT_DESCRIBE_NUMBER
-    version_items = version_string.strip("\n").split("-")
-    __version__ = f"{version_items[-2]}_{version_items[-1]}"
+    # Use the tag name directly, e.g. "v0.1.0"
+    __version__ = version_string.strip("\n")
 
     # Reset cwd
     os.chdir(original_cwd)
