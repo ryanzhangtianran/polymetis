@@ -1,5 +1,5 @@
 hz: 1000
-use_real_time: true
+use_real_time: false
 exec: franka_panda_client
 
 robot_client:
