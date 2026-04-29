@@ -69,3 +69,4 @@ if you encounter the error `Permission denied`, try to run the command below:
 ```bash
 sudo chmod 666 /dev/ttyUSB0
 ```
+
