@@ -30,7 +30,13 @@ conda activate polymetis-local
 ```
 pip install -e ./polymetis
 ```
-4. Build Polymetis from source:
+4. Install Libfranka
+```
+wget https://github.com/frankarobotics/libfranka/releases/download/<libfranka_version>/libfranka_<libfranka_version>_<ubuntu_codename>_amd64.deb
+sudo dpkg -i libfranka_<libfranka_version>_<ubuntu_codename>_amd64.deb
+```
+
+5. Build Polymetis from source:
 ```
 mkdir -p ./polymetis/build
 cd ./polymetis/build
