@@ -1,4 +1,4 @@
-name: polymetis-local
+name: polymetis
 channels:
   - pytorch
   - fair-robotics
@@ -9,7 +9,6 @@ dependencies:
     # Build dependencies
     - assimp=5.0.1=hdca8b6f_4
     - cmake
-    # - cudatoolkit=11.3
     - cpuonly
     - doxygen
     - eigen=3.3.9
